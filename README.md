@@ -1,5 +1,5 @@
 
-# 🔐 Password Strength Analyzer
+# 🔐 Password Strength Analyzer (PSA)
 
 ## Overview
 This Python script provides a comprehensive password strength analysis tool that calculates password entropy, rates password strength, and estimates crack time. It offers detailed insights into password security and provides actionable recommendations for improving password quality.
