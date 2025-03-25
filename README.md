@@ -47,10 +47,20 @@ check_password('YourPassword123!', guesses_per_second=50000000)
 
 ### Example Output
 ```
-Password: YourPassword123!
-Password Strength (Entropy): 52.34 bits
-Password Rating: Strong
-Estimated Crack Time: 3.42 years
+Password: slimjim1234
+Password Strength (Entropy): 29.31 bits
+Password Rating: Very Weak
+Estimated Crack Time: 6.65 seconds
+Weak password. Suggestions:
+- Add uppercase letters.
+- Add special characters.
+- Avoid common patterns or sequences.
+Character Sets Used: Lowercase, Digits
+
+Password: SlimJim1234!
+Password Strength (Entropy): 44.56 bits
+Password Rating: Moderate
+Estimated Crack Time: 3.00 days
 Character Sets Used: Uppercase, Lowercase, Digits, Special
 ```
 
@@ -62,6 +72,11 @@ Character Sets Used: Uppercase, Lowercase, Digits, Special
 -   **Very Strong**: > 60 bits
 
 
-## Disclaimer
-This is a client-side strength estimation tool. Always implement additional server-side password validation and use secure hashing techniques. Don't rely on this script solely for password strength.
+## Disclaimer ⚠️
+**WARNING:** This is a research and educational tool for password strength estimation. It is NOT suitable for professional security implementations. Passwords with dictionary words remain vulnerable to attacks, and this script provides only a basic estimation of password strength.
+
+**DO NOT USE** for:
+-   Authentication systems
+-   Security-critical applications
+-   Enterprise password management
 
